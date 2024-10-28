@@ -10,4 +10,13 @@ export const API_OPTIONS={
     }
   };
 
-  export const IMG_CDN_URL="https://image.tmdb.org/t/p/w780/"
+  export const IMG_CDN_URL="https://image.tmdb.org/t/p/w780/";
+
+  export const BG_URL_SRC="https://assets.nflxext.com/ffe/siteui/vlv3/7c0e18aa-2c95-474d-802e-7f30e75dcca4/web/IN-en-20241014-TRIFECTA-perspective_e7121311-c11e-4809-a3e6-22abffa33569_small.jpg" 
+
+ export  const BG_URL_SRCSET="https://assets.nflxext.com/ffe/siteui/vlv3/7c0e18aa-2c95-474d-802e-7f30e75dcca4/web/IN-en-20241014-TRIFECTA-perspective_e7121311-c11e-4809-a3e6-22abffa33569_small.jpg 1000w, https://assets.nflxext.com/ffe/siteui/vlv3/7c0e18aa-2c95-474d-802e-7f30e75dcca4/web/IN-en-20241014-TRIFECTA-perspective_e7121311-c11e-4809-a3e6-22abffa33569_medium.jpg 1500w, https://assets.nflxext.com/ffe/siteui/vlv3/7c0e18aa-2c95-474d-802e-7f30e75dcca4/web/IN-en-20241014-TRIFECTA-perspective_e7121311-c11e-4809-a3e6-22abffa33569_large.jpg 1800w";
+
+ export const SUPPORTED_LANGUAGES=
+ [{identifier:"en",name:"English"}
+  ,{identifier:"hindi",name:"Hindi"}
+  ,{identifier:"spanish",name:"Spanish"}]

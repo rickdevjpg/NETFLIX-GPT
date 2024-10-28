@@ -6,7 +6,7 @@ import { auth } from '../utils/firebase';
 
 import { useDispatch } from 'react-redux';
 import { addUser,removeUser } from '../utils/userSlice';
-import { USER_AVATAR } from '../utils/constants';
+import { BG_URL_SRC, BG_URL_SRCSET, USER_AVATAR } from '../utils/constants';
 
 const Login = () => {
 
@@ -146,7 +146,7 @@ signInWithEmailAndPassword(auth, email.current.value, password.current.value)
     <div>
         <Header/>
         <div className='absolute'>
-            <img src="https://assets.nflxext.com/ffe/siteui/vlv3/7c0e18aa-2c95-474d-802e-7f30e75dcca4/web/IN-en-20241014-TRIFECTA-perspective_e7121311-c11e-4809-a3e6-22abffa33569_small.jpg" srcSet="https://assets.nflxext.com/ffe/siteui/vlv3/7c0e18aa-2c95-474d-802e-7f30e75dcca4/web/IN-en-20241014-TRIFECTA-perspective_e7121311-c11e-4809-a3e6-22abffa33569_small.jpg 1000w, https://assets.nflxext.com/ffe/siteui/vlv3/7c0e18aa-2c95-474d-802e-7f30e75dcca4/web/IN-en-20241014-TRIFECTA-perspective_e7121311-c11e-4809-a3e6-22abffa33569_medium.jpg 1500w, https://assets.nflxext.com/ffe/siteui/vlv3/7c0e18aa-2c95-474d-802e-7f30e75dcca4/web/IN-en-20241014-TRIFECTA-perspective_e7121311-c11e-4809-a3e6-22abffa33569_large.jpg 1800w"  alt="im"/>
+            <img src={BG_URL_SRC} srcSet={BG_URL_SRCSET}  alt="im"/>
         </div>
         <form className=' absolute p-12 bg-black w-4/12 my-36 mx-auto right-0 left-0 text-white rounded-lg bg-opacity-80 ' onSubmit={(e)=>e.preventDefault()} >
             <h1 className='font-bold text-3xl py-4' >
