@@ -20,3 +20,6 @@ export const API_OPTIONS={
  [{identifier:"en",name:"English"}
   ,{identifier:"hindi",name:"Hindi"}
   ,{identifier:"spanish",name:"Spanish"}]
+
+
+  export const GEMINI_KEY="AIzaSyDpaeqQSmc91YDR6iFdblIPZcGMEVt03e4";

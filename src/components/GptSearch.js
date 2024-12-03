@@ -7,11 +7,15 @@ import { BG_URL_SRC, BG_URL_SRCSET } from '../utils/constants';
 
 const GptSearch = () => {
   return (
-    <div>
-         <div className='absolute -z-10'>
-            <img src={BG_URL_SRC} 
+    <>
+     <div className='fixed -z-10'>
+            <img 
+            className='h-screen w-screen object-cover'
+            src={BG_URL_SRC} 
             srcSet={BG_URL_SRCSET}  alt="im"/>
         </div>
+    <div className=''>
+        
 
 <GptSearchBar/>
 <GptMovieSuggestions/>
@@ -19,6 +23,7 @@ const GptSearch = () => {
         
       
     </div>
+    </>
   )
 }
 

@@ -145,10 +145,12 @@ signInWithEmailAndPassword(auth, email.current.value, password.current.value)
   return (
     <div>
         <Header/>
-        <div className='absolute'>
-            <img src={BG_URL_SRC} srcSet={BG_URL_SRCSET}  alt="im"/>
+        <div className='fixed'>
+            <img
+            className='h-screen object-cover w-screen'
+            src={BG_URL_SRC} srcSet={BG_URL_SRCSET}  alt="im"/>
         </div>
-        <form className=' absolute p-12 bg-black w-4/12 my-36 mx-auto right-0 left-0 text-white rounded-lg bg-opacity-80 ' onSubmit={(e)=>e.preventDefault()} >
+        <form className=' w-full absolute p-12 bg-black md:w-4/12 my-36 mx-auto right-0 left-0 text-white rounded-lg bg-opacity-80 ' onSubmit={(e)=>e.preventDefault()} >
             <h1 className='font-bold text-3xl py-4' >
                 
                 {
