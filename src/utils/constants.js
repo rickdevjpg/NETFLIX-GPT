@@ -22,4 +22,4 @@ export const API_OPTIONS={
   ,{identifier:"spanish",name:"Spanish"}]
 
 
-  export const GEMINI_KEY="AIzaSyDpaeqQSmc91YDR6iFdblIPZcGMEVt03e4";
+  export const GEMINI_KEY="hidden";
